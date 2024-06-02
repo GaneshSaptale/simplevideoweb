@@ -1,0 +1,186 @@
+body{
+    background-color: darkgray;
+    color: white;
+    font-family: arial;
+    line-height:1.4em ;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+ul{
+    padding: 0;
+}
+#container{
+    background-color: #222f3e;
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+}
+#nav{
+    height: 40px;
+    background-color: #666;
+
+}
+#nav ul{
+    padding-top: 13px;
+    padding-left: 10px;
+}
+#nav li{
+    list-style: none;
+    float: left;  
+}
+#nav .isc{
+    margin-right: 50px;
+}
+
+#nav i{
+    float: right;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+#nav i:hover{
+    cursor: pointer;
+}
+#nav a:hover{
+    background-color: lightblue;
+    color: #000;
+    padding-top: 14px;
+    padding-bottom: 8px;
+}
+#nav .active{
+    font-weight: bold;
+    color: #000;
+
+}
+#main{
+    float: left;
+    width: 60%;
+
+}
+/*
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #666;
+    margin-top: 50%;
+    padding: 10px;
+}
+*/
+.clr{
+    clear: both;
+}
+
+#footer{
+    text-align: center;
+    padding: 1px;
+    background-color: #666;
+    margin: 10px;
+}
+
+.services li{
+    border-bottom: 2px #666 dashed;
+    padding-bottom: 20px;
+}
+
+.services a{
+    background: #666;
+    padding: 10px;
+}
+.services a:hover{
+    background-color:lightblue;
+    color: #000;
+}
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 15px;
+}
+
+.vdo h3{
+    margin-left: 30%;
+}
+.vdo p{
+    margin-left: 50px;
+}
+
+/* creating style to nav1 */
+
+.nav1{
+    margin-right: 4%;
+}
+
+.nav1 a{
+
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;  /* top- bottom    and left- right  */
+    background: lightgrey;
+    margin-right: 10px;
+    float: right;
+    border-radius: 10px;
+
+
+ }
+ .nav1 a:hover {  background: transparent;
+    border: 1px solid lightsteelblue;
+    color: white;
+
+}
+
+/* h-test style */
+.htext {
+
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+.htext a:hover {  background: cornflowerblue;
+                 border: 1px solid white;
+
+             }
+    /* h-test inside h1 style */
+
+    .htext h1{
+                font-size: 3em;
+                font-family: 'Dancing Script', cursive;
+
+
+            }
+            /* h-test inside Span Tag style */
+            .htext span{
+
+                color: #e67e22;
+                 }
+
+                 /* h-test inside paragraph Tag style */
+                 .htext p{
+                            font-size: 20px;
+                            margin: 40px 0px;
+                            line-height: 30px;
+
+                 }
+                 /* h-test inside  Button  style */
+                 .htext a{
+                            text-decoration: none;
+                            color: white;
+                            background-color: lightslategray;
+                            padding: 10px 20px;
+                            margin: 0px 15px;
+                            letter-spacing: 5px;
+                 }
+
+                 .paragraph{
+                    text-align: center;
+                    padding-left: 30%;
+                 }
